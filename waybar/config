@@ -1,7 +1,7 @@
 [
     {
         "name": "topbar",
-        "layer": "bottom",
+        "layer": "top",
         "position": "top",
         "height": 30,
         "modules-left": [
@@ -21,7 +21,7 @@
             "network#wifi",
             "network#ethernet",
             "network#disconnected",
-            "custom/mail",
+            //"custom/mail",
             "custom/weather",
             "clock",
             "custom/poweroff"

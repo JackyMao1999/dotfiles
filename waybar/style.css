@@ -95,13 +95,17 @@ window#waybar.empty {
 #temperature.critical {
     background-color: #eb4d4b;
 }
-
+#taskbar button {
+    color: white
+}
 #taskbar button:hover {
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(255, 255, 255, 0.1);
     box-shadow: inset 0 3px #ffffff;
+    color: white;
 }
 
 #taskbar button.active {
     background-color: #64727D;
     box-shadow: inset 0 3px #ffffff;
+    color: white;
 }
