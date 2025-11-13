@@ -182,7 +182,7 @@
         "name": "bottombar",
         "layer": "top",
         "position": "bottom",
-        "height": 30,
+        "height": 35,
         "modules-left": ["tray"],
         "modules-center": ["wlr/taskbar"],
         "modules-right": ["sway/workspaces", "sway/mode"],
