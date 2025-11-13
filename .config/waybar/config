@@ -11,7 +11,7 @@
             "disk",
             "memory",
             "cpu",
-            "temperature",
+            //"temperature",
             "pulseaudio",
             //"backlight",
             "idle_inhibitor"
