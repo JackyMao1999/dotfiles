@@ -34,7 +34,11 @@ output HDMI-A-1 resolution 2560x1440 position 2560,0 bg ~/.config/sway/bg/sohi.j
 output eDP-1 disable 
 #
 # You can get the names of your outputs by running: swaymsg -t get_outputs
-
+for_window [instance="wechat"] floating enable 
+for_window [instance="wechat"] focus
+for_window [title=".*微信.*"] floating enable
+for_window [instance="Bytedance-feishu"] floating enable
+for_window [title=".*飞书.*"] floating enable
 ### Idle configuration
 #
 # Example configuration:
