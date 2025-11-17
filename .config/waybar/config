@@ -187,7 +187,7 @@
         "modules-center": ["wlr/taskbar"],
         "modules-right": ["sway/workspaces", "sway/mode"],
         "tray": {
-            "icon-size": 13,
+            "icon-size": 16,
             "spacing": 10
         },
         "wlr/taskbar": {
